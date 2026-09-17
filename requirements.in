@@ -1,0 +1,8 @@
+streamlit
+plotly
+pydantic
+openai
+pytest
+httpx
+python-dotenv
+pandas-market-calendars

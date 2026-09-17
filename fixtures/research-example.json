@@ -1,0 +1,11 @@
+[
+  {
+    "instrument": "DEMO-WIN",
+    "kind": "news",
+    "title": "SYNTHETIC: sample company publishes a factory update",
+    "summary": "Invented fixture to test evidence availability. This is not real company news and is not a buy signal.",
+    "source_url": "https://example.com/synthetic-fixture",
+    "published_at": "2026-09-15T09:30:00+05:30",
+    "available_at": "2026-09-15T09:45:00+05:30"
+  }
+]

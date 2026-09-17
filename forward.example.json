@@ -1,0 +1,15 @@
+{
+  "symbols": ["RELIANCE"],
+  "warmup_start": "2026-09-14",
+  "warmup_end": "2026-09-15",
+  "schedule_path": "data/verified-schedule.json",
+  "settings": {"ai_mode": "rules"},
+  "verification": {
+    "data_rights_confirmed": false,
+    "unadjusted_verified": false,
+    "calendar_verified": false,
+    "no_corporate_actions": false,
+    "smoke_received_timestamp": null,
+    "measured_delay_seconds": null
+  }
+}

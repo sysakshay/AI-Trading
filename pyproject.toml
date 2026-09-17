@@ -1,0 +1,10 @@
+[project]
+name = "paper-research"
+version = "0.2.0"
+description = "Local NSE research and paper-trading demonstration"
+requires-python = ">=3.14,<3.15"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--basetemp=.pytest-tmp -o cache_dir=.pytest-local-cache"
+filterwarnings = ["ignore:.*ScriptRunContext.*"]

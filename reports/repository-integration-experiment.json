@@ -1,0 +1,146 @@
+{
+  "experiment": "493298b54da89038c2d236a9dd4342b43370a6d5f502cd61254b158bdf92a8f1",
+  "state": "COMPLETE",
+  "manifest": {
+    "version": "comparison-v1",
+    "source_run": "69187f8fbbbe487cbb8a8ebbbf170226",
+    "data_hash": "4b82cb6a77fd459f43cd99a136b21732b7a8fddad4def9ab7149da30cd5d995d",
+    "research_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "config": {
+      "initial_paise": 1000000,
+      "risk": 0.005,
+      "aggregate": 0.01,
+      "daily_loss": 0.01,
+      "max_positions": 2,
+      "max_trades": 3,
+      "sma": 20,
+      "lookback": 20,
+      "atr_period": 14,
+      "volume_multiple": 1.5,
+      "stop_atr": 1.5,
+      "target_r": 2.0,
+      "min_net_rr": 1.5,
+      "fee_bps": 10,
+      "fee_fixed_paise": 0,
+      "slip_bps": 2,
+      "participation": 0.01,
+      "ai_mode": "rules",
+      "regime_policy": "observe"
+    },
+    "variants": {
+      "rules": {
+        "ai_mode": "rules",
+        "regime_policy": "observe"
+      },
+      "mock_research": {
+        "ai_mode": "mock",
+        "regime_policy": "observe"
+      },
+      "regime_filter": {
+        "ai_mode": "rules",
+        "regime_policy": "avoid_high_volatility"
+      }
+    },
+    "fill_policy": "completed-close-v1",
+    "code_version": "0.2.0",
+    "description": "Same immutable data, starting capital, costs and risk bounds; each policy has its own constrained account. Not a causal estimate of AI value."
+  },
+  "variants": [
+    {
+      "variant": "mock_research",
+      "run": "ea8d7048387a474babc253b520376ed0",
+      "trades": 2,
+      "net_paise": -512,
+      "drawdown_paise": 736,
+      "costs_paise": 992,
+      "sample": "INSUFFICIENT: fewer than 30 closed trades",
+      "states": [
+        {
+          "state": "FILLED",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "variant": "regime_filter",
+      "run": "110cbe6390b846fb908bc0c89f522e24",
+      "trades": 0,
+      "net_paise": 0,
+      "drawdown_paise": 0,
+      "costs_paise": 0,
+      "sample": "INSUFFICIENT: fewer than 30 closed trades",
+      "states": [
+        {
+          "state": "REJECTED",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "variant": "rules",
+      "run": "b8e7a45ac0744b2184166fd82bd8ecc3",
+      "trades": 2,
+      "net_paise": -512,
+      "drawdown_paise": 736,
+      "costs_paise": 992,
+      "sample": "INSUFFICIENT: fewer than 30 closed trades",
+      "states": [
+        {
+          "state": "FILLED",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "variant": "mock_research",
+      "instrument": "DEMO-LOSS",
+      "time": "2026-09-15T10:00:00+05:30",
+      "state": "FILLED",
+      "reason": "Eligible; costs are estimates"
+    },
+    {
+      "variant": "mock_research",
+      "instrument": "DEMO-WIN",
+      "time": "2026-09-15T10:00:00+05:30",
+      "state": "FILLED",
+      "reason": "Eligible; costs are estimates"
+    },
+    {
+      "variant": "regime_filter",
+      "instrument": "DEMO-LOSS",
+      "time": "2026-09-15T10:00:00+05:30",
+      "state": "REJECTED",
+      "reason": "Experimental regime gate: UNKNOWN"
+    },
+    {
+      "variant": "regime_filter",
+      "instrument": "DEMO-WIN",
+      "time": "2026-09-15T10:00:00+05:30",
+      "state": "REJECTED",
+      "reason": "Experimental regime gate: UNKNOWN"
+    },
+    {
+      "variant": "rules",
+      "instrument": "DEMO-LOSS",
+      "time": "2026-09-15T10:00:00+05:30",
+      "state": "FILLED",
+      "reason": "Eligible; costs are estimates"
+    },
+    {
+      "variant": "rules",
+      "instrument": "DEMO-WIN",
+      "time": "2026-09-15T10:00:00+05:30",
+      "state": "FILLED",
+      "reason": "Eligible; costs are estimates"
+    }
+  ],
+  "limitations": [
+    "MOCK is a plumbing control, not an LLM forecast",
+    "Regime filtering is an unvalidated hypothesis; UNKNOWN blocks entries",
+    "Cash-only reference has zero trading return; no equity benchmark data or alpha claim",
+    "Run portfolios can diverge under capacity constraints",
+    "For development/test evaluation use separate chronological datasets; no automatic tuning performed"
+  ]
+}

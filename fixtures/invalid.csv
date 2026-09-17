@@ -1,0 +1,2 @@
+instrument,symbol,timestamp,open,high,low,close,volume,source,interval,adjustment,tick_paise
+DEMO-BAD,DEMO-BAD,2026-09-14T09:30:00+05:30,100.00,90.00,95.00,101.00,-1,SYNTHETIC,15,unadjusted,5

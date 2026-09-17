@@ -1,0 +1,10 @@
+{
+  "review_date": "2026-09-16",
+  "method": "Shallow default-branch snapshots; targeted source and documentation inspection; no upstream code executed",
+  "repositories": [
+    {"url": "https://github.com/TauricResearch/TradingAgents", "commit": "be952b8eccb49720509af544c6675233bc1f10d0", "local_path": "research/upstream/TradingAgents", "license_observed": "Apache-2.0 LICENSE file"},
+    {"url": "https://github.com/aaryansinha16/AI-trader", "commit": "de830f95c462c8142acb8191c62d3404868484aa", "local_path": "research/upstream/nse-ai-trader", "license_observed": "MIT LICENSE file"},
+    {"url": "https://github.com/HKUDS/AI-Trader", "commit": "d03ff6c056b32ced735adf7c19ed8175adb1c8df", "local_path": "research/upstream/HKUDS-AI-Trader", "license_observed": "README MIT claim; root LICENSE absent in inspected tree"}
+  ],
+  "reuse": "Independent implementation of selected architectural ideas; no upstream code or assets imported into app runtime"
+}

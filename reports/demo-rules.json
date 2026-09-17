@@ -1,0 +1,588 @@
+{
+  "mode": "SAMPLE",
+  "strategy": "breakout-v1-113d03559d6e",
+  "data_hash": "4b82cb6a77fd459f43cd99a136b21732b7a8fddad4def9ab7149da30cd5d995d",
+  "period": [
+    null,
+    null
+  ],
+  "completed_trades": 2,
+  "net_realized_paise": -512,
+  "gross_closed_paise": 480,
+  "transaction_costs_paise": 992,
+  "win_rate": 0.5,
+  "average_win_paise": 7416.0,
+  "average_loss_paise": -7928.0,
+  "expectancy_paise": -256.0,
+  "profit_factor": 0.9354187689202825,
+  "max_drawdown_paise": 736,
+  "longest_losing_sequence": 1,
+  "cash_paise": 999488,
+  "open_positions": 0,
+  "unrealized_paise": 0,
+  "valuation_uncertain": false,
+  "equity_curve": [
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T09:30:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T09:45:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T10:00:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T10:15:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T10:30:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T10:45:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T11:00:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T11:15:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T11:30:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T11:45:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T12:00:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T12:15:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T12:30:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T12:45:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T13:00:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T13:15:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T13:30:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T13:45:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T14:00:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T14:15:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T14:30:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T14:45:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T15:00:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T15:15:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-14T15:30:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T09:30:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T09:45:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T10:00:00+05:30",
+      "value": 1000000,
+      "uncertain": 0,
+      "drawdown": 0
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T10:15:00+05:30",
+      "value": 999264,
+      "uncertain": 0,
+      "drawdown": -736
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T10:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T10:45:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T11:00:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T11:15:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T11:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T11:45:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T12:00:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T12:15:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T12:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T12:45:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T13:00:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T13:15:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T13:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T13:45:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T14:00:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T14:15:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T14:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T14:45:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T15:00:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T15:15:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-15T15:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T09:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T09:45:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T10:00:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T10:15:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T10:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T10:45:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T11:00:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T11:15:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T11:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T11:45:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T12:00:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T12:15:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T12:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T12:45:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T13:00:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T13:15:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T13:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T13:45:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T14:00:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T14:15:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T14:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T14:45:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T15:00:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T15:15:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    },
+    {
+      "run": "95bcf17e57254595819640fc69720d33",
+      "time": "2026-09-16T15:30:00+05:30",
+      "value": 999488,
+      "uncertain": 0,
+      "drawdown": -512
+    }
+  ],
+  "exposure_bar_fraction": 0.013333333333333334,
+  "candidate_states": [
+    {
+      "state": "FILLED",
+      "count": 2
+    }
+  ],
+  "operational_counts": [
+    {
+      "kind": "ADVANCE",
+      "n": 75
+    },
+    {
+      "kind": "APPROVED",
+      "n": 2
+    },
+    {
+      "kind": "CANDIDATE",
+      "n": 2
+    },
+    {
+      "kind": "CREATED",
+      "n": 1
+    },
+    {
+      "kind": "EXIT",
+      "n": 2
+    }
+  ],
+  "ai_reserved_usd": 0,
+  "operating_costs": "Offline: INR 0 API/data spend. Connected subscription and FX allocation must be entered separately.",
+  "limitations": [
+    "Synthetic results are not evidence of profitability",
+    "Drawdown and exposure are whole-run sampled bar-close metrics",
+    "Open marks exclude future exit charges",
+    "No losses: profit factor undefined, not infinite success"
+  ]
+}
